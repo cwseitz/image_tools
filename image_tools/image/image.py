@@ -3,20 +3,15 @@ from skimage.io import imread
 
 ###############################################
 # 
-# This is a collection of functions that are
-# designed to organize image stacks generated
-# using MicroManager v1.4
-#
-#
-#
-#
+# This is a collection of functions for
+# manipulating image stacks generated using 
+# MicroManager v1.4
 #
 ################################################
 
-
-###################################
-# A collection of individual images
-###################################
+################################################
+# A collection of individual images or stacks
+################################################
 
 class Collection:
     def __init__(self, files):
